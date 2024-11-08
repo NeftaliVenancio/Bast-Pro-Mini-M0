@@ -1,13 +1,13 @@
 
 int n_sensores = 16;
 
-int s[] = {A0,A1,A2,A3}; //pines de selecciòn para el multiplexor
+int s[] = {A3,A2,8,7}; //pines de selecciòn para el multiplexor
 
-int sen[] = {A4, A5}; // pines de lectura analogica para los dos multiplexores
+int sen[] = {A0}; // pines de lectura analogica para los dos multiplexores
 
 
 //Variables de lectura 
-int lec[16][2];  //almacenamiento del multiplexor 1
+int lec[16][1];  //almacenamiento del multiplexor 1
 
 
 int comb[16][4] = { //Matrix de 16x4
